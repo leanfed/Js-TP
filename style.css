@@ -310,13 +310,14 @@ input[type="button"]:hover{
 	  justify-content: space-between;
 	}
 	.form1{
-		width: 200px;
+		width: 100px;
 		display:block;
 		flex-direction:column; 
 		justify-content: center; 
 		text-align:center;
 		align-items: center;
-		margin-left: -4px;	
+		margin-left: 20px;
+		margin-right: 20px;	
 	}
 	.separar{
 		padding-top: 15px;
