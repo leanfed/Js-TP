@@ -206,6 +206,7 @@ input[type="button"]:hover{
     width: 50%;
     text-align: left;
     height: min-content;
+	margin-left: 5px;
 }
 
 
@@ -252,8 +253,8 @@ input[type="button"]:hover{
 	font-size: 57%;
 	}
 	.mob{
-		width: 540px;
-		display:inline-flex;
+		width: 300px;
+		display:flex;
 		flex-direction: row;
 		align-items:center; 
 		justify-content:center; 
@@ -279,7 +280,10 @@ input[type="button"]:hover{
 
   @media only screen and (max-width: 375px) {
 	body {
+		width: 100%;
 	  font-size: 14px;
+	  margin-left: 0%;
+	  align-items: center;
 	}
 	.navbar {
 	  padding: 10px 5px;
@@ -293,9 +297,9 @@ input[type="button"]:hover{
 	  margin-bottom: 20px;
 	}
 	.box1, .box2, .box3 {
-	  width: 100%;
+	  width: 60%;
 	  margin-bottom: 20px;
-	  height: 200px;
+	  height: 180px;
 	}
 	input[type="text"], input[type="email"], select, input[type="number"] {
 	  width: 100%;
@@ -308,6 +312,7 @@ input[type="button"]:hover{
 	  padding: 5px;
 	  display: flex;
 	  justify-content: space-between;
+	  margin-left: 0%;
 	}
 	.form1{
 		width:auto;
@@ -329,12 +334,15 @@ input[type="button"]:hover{
 		justify-content:center; 
 		text-align:center;
 		justify-items: flex-start;
-		margin-left: -10px;
+		margin-left: 2px;
 	}
 	.total {
 		width: 310px;
-		margin-left: -10px;
+		margin-left: 2px;
 	  }
+	  .navbar a:last-child{
+		margin-left: -20px;
+	}
   }
   
   
