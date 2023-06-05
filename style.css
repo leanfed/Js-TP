@@ -276,4 +276,66 @@ input[type="button"]:hover{
 		margin-left: -5px;
 	}
   }
+
+  @media only screen and (max-width: 375px) {
+	body {
+	  font-size: 14px;
+	}
+	.navbar {
+	  padding: 10px 5px;
+	}
+	.navbar a {
+	  margin: 5px 0;
+	  font-size: 14px;
+	}
+	.container {
+	  margin-top: 20px;
+	  margin-bottom: 20px;
+	}
+	.box1, .box2, .box3 {
+	  width: 100%;
+	  margin-bottom: 20px;
+	  height: 200px;
+	}
+	input[type="text"], input[type="email"], select, input[type="number"] {
+	  width: 100%;
+	  margin-bottom: 10px;
+	  font-size: 14px;
+	  padding: 5px;
+	}
+	.footer {
+	  font-size: 7px;
+	  padding: 5px;
+	  display: flex;
+	  justify-content: space-between;
+	}
+	.form1{
+		width: 200px;
+		display:block;
+		flex-direction:column; 
+		justify-content: center; 
+		text-align:center;
+		align-items: center;
+		margin-left: 5%;	
+	}
+	.separar{
+		padding-top: 15px;
+		margin-left: -5px;
+	}
+	.mob{
+		width: 310px;
+		display:inline-flex;
+		flex-direction: row;
+		align-items:center; 
+		justify-content:center; 
+		text-align:center;
+		justify-items: flex-start;
+		margin-left: -10px;
+	}
+	.total {
+		width: 310px;
+		margin-left: -10px;
+	  }
+  }
+  
   
