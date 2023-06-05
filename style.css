@@ -300,6 +300,7 @@ input[type="button"]:hover{
 	  width: 60%;
 	  margin-bottom: 20px;
 	  height: 180px;
+	  font-size: 11px;
 	}
 	input[type="text"], input[type="email"], select, input[type="number"] {
 	  width: 100%;
