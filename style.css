@@ -200,3 +200,42 @@ input[type="button"]:hover{
     text-align: left;
     height: min-content;
 }
+
+@media only screen and (max-width: 600px) {
+	body {
+	  font-size: 16px;
+	}
+	.navbar {
+	  flex-direction: column;
+	  align-items: flex-start;
+	}
+	.navbar a {
+	  margin: 10px 0;
+	  display: block;
+	}
+	.container {
+	  flex-direction: column;
+	  margin-top: 20px;
+	  margin-bottom: 20px;
+	}
+	.box1, .box2, .box3 {
+	  width: 100%;
+	  margin-bottom: 20px;
+	}
+	input[type="text"], input[type="email"], select, input[type="number"] {
+	  width: 100%;
+	  margin-bottom: 10px;
+	}
+	.total {
+	  width: 100%;
+	}
+	.content2 {
+	  width: 100%;
+	  flex-direction: column;
+	}
+	.div1, .div2 {
+	  width: 100%;
+	  text-align: center;
+	}
+  }
+  
