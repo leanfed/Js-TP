@@ -169,7 +169,7 @@ input[type="button"]:hover{
 	display:flex;
     flex-direction: row;
     align-items:center; 
-	justify-content:center; 
+	justify-content:space-between; 
 	text-align:center;
     padding: 20px;
     margin: auto;
@@ -241,10 +241,9 @@ input[type="button"]:hover{
 	}
 	.footer{
 	display: flex;
-    align-items:center; 
-	justify-content: center; 
-	text-align:center;
-	font-size: 67%;
+	justify-content: space-between;
+	flex-direction:row; 
+	font-size: 57%;
 	}
 	.mob{
 		width: 540px;
@@ -254,6 +253,18 @@ input[type="button"]:hover{
 		justify-content:center; 
 		text-align:center;
 		justify-items: flex-start;
+	}
+	.form1{
+		width: 500px;
+		display:inline-flex;
+		flex-direction: column;
+		align-items:center; 
+		justify-content:center; 
+		text-align:center;
+		
+	}
+	.separar{
+		padding-top: 15px;
 	}
   }
   
